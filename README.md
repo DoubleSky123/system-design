@@ -25,7 +25,3 @@ Each design should cover:
 4. High-level architecture
 5. Deep dives into bottlenecks and failure modes
 6. Trade-offs and follow-up improvements
-
-## Publishing
-
-GitHub Actions deploys the repository root to GitHub Pages whenever changes are pushed to `main`. Enable Pages in repository Settings → Pages and select GitHub Actions as the build and deployment source.
