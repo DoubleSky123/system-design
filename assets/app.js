@@ -31,4 +31,4 @@ const topics = [
 ["30","Open-ended System Design","Requirements to trade-offs"]
 ];
 const container = document.getElementById("topics");
-container.innerHTML = topics.map(([n,title,desc]) => `<article class="topic"><a href="designs/day-${n}-${title.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g)}.md"><div class="topic-top"><span>DAY ${n}</span><span>↗</span></div><h3>${title}</h3><p>${desc}</p></a></article>`).join("");
+container.innerHTML = topics.map(([n,title,desc]) => `<article class="topic"><div class="topic-top"><span>DAY ${n}</span><span>30-DAY CHALLENGE</span></div><h3>${title}</h3><p>${desc}</p></article>`).join("");
